@@ -11,7 +11,7 @@ namespace Hello
             {
                 if (x < -1) { yy = x * x; }
                 else
-                { if (x >= 0 || x <= -1) { yy = 0.2 * x + 0.1; } }
+                { if (x >= 0 || x <= -1) { yy = 0; } }
             }
             y = yy;
             return yy;
